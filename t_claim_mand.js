@@ -33,7 +33,7 @@ async function processAddresses(filePath) {
 //本脚本无需私钥签名
 async function main() {
     try {
-        const addresses = await processAddresses('./nimall_evm.txt');//----------->>>>>修改领取地址,每个0x地址一行,存放本地
+        const addresses = await processAddresses('./XXXXX.txt');//----------->>>>>修改为自己存放领取地址的本地文件,每个0x地址一行
         const headers = {
             'accept': '*/*',
             'Accept-Encoding': 'gzip, deflate, br',
